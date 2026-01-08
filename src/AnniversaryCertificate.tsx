@@ -92,7 +92,7 @@ const CapgeminiCert: React.FC = () => {
     <Typography
   variant="caption"
   component="a"
-  href=''
+  href='https://www.linkedin.com/in/rishi-balla/'
   sx={{
     
     position: 'fixed',
