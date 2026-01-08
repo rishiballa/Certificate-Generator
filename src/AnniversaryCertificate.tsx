@@ -72,7 +72,7 @@ const CapgeminiCert: React.FC = () => {
   </Box>
   <Box ref={Certificateref} sx={{ maxWidth: '800px', margin: '0 auto', padding: '20px' ,position:'relative',bgcolor:'#ffffff', boxShadow:3}}>
 
-    <img src=src={certificateImage} alt="Certificate Preview" style={{ width: '100%', height: 'auto', zIndex:'-1', display:'block' }} />
+    <img src={certificateImage} alt="Certificate Preview" style={{ width: '100%', height: 'auto', zIndex:'-1', display:'block' }} />
     <Box sx={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%' }}>
     <Typography variant="h4" align="center" sx={{ mt: '300px', textDecoration:'Underline', fontWeight:'Bold' }}  gutterBottom>
       {Data.name}
