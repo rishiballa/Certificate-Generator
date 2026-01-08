@@ -48,11 +48,11 @@ const CapgeminiCert: React.FC = () => {
   return <>
   <Box sx={{backgroundImage: `url(${backgroundImage})`, 
   
-  // 2. Ensure it covers the whole screen perfectly
+  
   backgroundSize: 'cover', 
   backgroundPosition: 'center', 
   backgroundRepeat: 'no-repeat',
-  backgroundAttachment: 'fixed', // Keeps the image still when you scroll
+  backgroundAttachment: 'fixed', 
   imageRendering: 'high-quality',
   minHeight: '100vh', 
   width: '100%', 
@@ -105,7 +105,7 @@ const CapgeminiCert: React.FC = () => {
     textShadow: '1px 1px 2px rgba(0,0,0,0.5)', 
   }}
 >
-  -Rishi Balla
+  Rishi Balla
 </Typography>
     </Box>
   
