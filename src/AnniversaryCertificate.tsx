@@ -105,7 +105,7 @@ const CapgeminiCert: React.FC = () => {
     textShadow: '1px 1px 2px rgba(0,0,0,0.5)', 
   }}
 >
-  Done by Rishi Balla
+  -Rishi Balla
 </Typography>
     </Box>
   
